@@ -1,4 +1,19 @@
 # MNXB01-learn
-C++ codeing course repository
+C++ coding course repository
 
+This below is a codified message in base64.
+
+```
+IF9uX19fX19fX19fX19fX19fX18KfF98X19fX19fX19fX19fX19ffF98CnwgICwtLS0tLS0tLS0t
+LS0tLiAgfAp8IHwgIC4tLS0tLS0tLS0uICB8IHwKfCB8ICB8ICAgICAgICAgfCAgfCB8CnwgfCAg
+fCAgICAgICAgIHwgIHwgfAp8IHwgIHwgICAgICAgICB8ICB8IHwKfCB8ICB8ICAgICAgICAgfCAg
+fCB8CnwgfCAgYC0tLS0tLS0tLScgIHwgfAp8IGAtLS0tLS0tLS0tLS0tLS0nIHwKfCAgIF8gR0FN
+RSBCT1kgICAgICB8CnwgX3wgfF8gICAgICAgICAsLS4gfAp8fF8gTyBffCAgICwtLiAiLl8sInwK
+fCAgfF98ICAgICIuXywiICAgQSB8IGhqdwp8ICAgIF8gIF8gICAgQiAgICAgIHwgYDk3CnwgICAv
+LyAvLyAgICAgICAgICAgfAp8ICAvLyAvLyAgICBcXFxcXFwgIHwKfCAgYCAgYCAgICAgIFxcXFxc
+XCAsCnxfX19fX19fXy4uLl9fX19fXywiCgpDcmVkaXRzOiA8aHR0cHM6Ly93d3cuYXNjaWlhcnQu
+ZXUvY29tcHV0ZXJzL2dhbWUtY29uc29sZXM+Cg==
+```
+
+You can decode it with `head -n15 README.md | tail -n9 | base64 -d`
 
